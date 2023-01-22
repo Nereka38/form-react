@@ -1,0 +1,124 @@
+html {
+  height: 120%
+}
+
+body {
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  background: linear-gradient(#035ff4, #243b55);
+}
+
+.login-box {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 60%;
+  padding: 3%;
+  transform: translate(-50%, -50%);
+  background: rgba(102, 50, 243, 0.071);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+ 
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box form button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ba3cf8;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box button:hover {
+  background: #9803f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #9803f4,
+              0 0 25px #9803f4,
+              0 0 50px #9803f4,
+              0 0 100px #9803f4;
+}
+
+.login-box button span {
+  position: absolute;
+  display: block;
+}
+
+button {
+display: flex;
+justify-content: center;
+}
+
+sup {
+  color:rgb(252, 5, 248);
+  font-size: 30px;
+}
+
+p {
+  color:rgb(252, 5, 248);
+}
+select {
+  background-color: transparent;
+  color: #fff;
+}
+
+select option[value="role"] {
+  background: #243b55;
+}
+
+select option[value="individual"] {
+  background: #243b55;
+}
+
+select option[value="business"] {
+  background: #243b55;
+}
+
+select option[value="4"] {
+  background: #9696964d;
+}
