@@ -102,9 +102,11 @@ sup {
 p {
   color:rgb(252, 5, 248);
 }
+
 select {
   background-color: transparent;
   color: #fff;
+  font-size: 16px;
 }
 
 select option[value="role"] {
